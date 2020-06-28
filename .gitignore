@@ -2,3 +2,4 @@
 **/bin
 **/obj
 **/*.Development.*
+**/.idea
