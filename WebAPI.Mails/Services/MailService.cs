@@ -29,7 +29,6 @@ namespace WebAPI.Mails.Services
 			SmtpClient client = new SmtpClient();
 			message.From = new MailAddress(_settings.Mail, _settings.DisplayName);
 			message.To.Add(new MailAddress(mailRequest.Receiver));
-			message.To.Add(new MailAddress("volkaukiryl@gmail.com"));
 			message.Subject = mailRequest.Subject;
 			if(mailRequest != null)
 			{
