@@ -1,4 +1,4 @@
-#Authorization with GitHub
+# OAuth2 with GitHub
 OAuth 2 with GitHub was implemented in [amount] steps:
 1. Register an OAuth app in your GitHub profile.
 2. Set `GitHub:ClientID` and `GitHub:ClientSecret` using `dotnet user-secret set [secret]`.
